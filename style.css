@@ -1,0 +1,93 @@
+body {
+  background-color: rgb(205, 221, 248);
+  display: grid;
+  place-content: center;
+}
+
+.cart {
+  display: grid;
+}
+
+svg {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.under-part {
+  background-color: white;
+  display: grid;
+  align-items: center;
+  width: 450px;
+  height: 400px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  margin-top: -5px;
+}
+
+.cart-text-title {
+  text-align: center;
+  color: hsl(223, 47%, 23%);
+  font-family: "Red Hat Display", sans-serif;
+}
+
+.cart-text {
+  text-align: center;
+  padding: 0 70px;
+  color: hsl(224, 23%, 55%);
+  font-family: "Red Hat Display", sans-serif;
+  margin-top: -50px;
+}
+
+.cart-section {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  background-color: hsl(225, 100%, 98%);
+  align-items: center;
+  width: 280px;
+  margin-left: 65px;
+  height: 70px;
+  border-radius: 10px;
+  padding: 0 20px;
+}
+
+.plan-money {
+  display: flex;
+  flex-direction: column;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+.cash {
+  color: hsl(224, 23%, 55%);
+  margin-top: 5px;
+}
+
+.cart-button-one {
+  text-align: center;
+}
+
+a {
+  color: hsl(245, 75%, 52%);
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 14px;
+}
+
+.cart-button-one button {
+  background-color: hsl(245, 75%, 52%);
+  padding: 10px 90px;
+  border: none;
+  border-radius: 10px;
+  color: hsl(225, 100%, 98%);
+  font-family: "Red Hat Display", sans-serif;
+}
+
+.cart-button-two {
+  text-align: center;
+}
+
+.cart-button-two a {
+  text-decoration: none;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 14px;
+  color: hsl(224, 23%, 55%);
+}
